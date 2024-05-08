@@ -1,0 +1,57 @@
+.app {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }
+  
+  input {
+    width: 100%;
+    height: 30px;
+  }
+  
+  .add {
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .list {
+    padding-top: 20px;
+  }
+  
+  .item {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center; 
+    text-align: left;
+  }
+  
+.item__btn {
+  display: flex;
+  margin-left: auto;
+}
+  .remove, .edit {
+    border: 0;
+    background-color: rgb(212, 101, 101);
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px; /* 右邊對齊 */
+  }
+
+  .textInput {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #dfdfdf; 
+    margin-left: 0; /* 左邊對齊 */
+    text-align: center; /* 將文字置中 */
+    display: flex; /* 將內容置中 */
+  }
+
